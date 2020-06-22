@@ -31,13 +31,13 @@ This library is developed with go version 1.14.4
 
 Download the library from https://github.com/gouthams/go-concurrency-util
 
-Need access from github to resolve dependencies.
+Need access to github or github mirror repo to resolve dependencies.
 
 To run a sample example, do the following
 ```shell script
 cd example
 go build
-./example
+./example or example.exe (windows)
 ```
 
 To execute unit tests, do the following
