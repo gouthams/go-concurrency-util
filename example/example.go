@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gouthams/awesomeProject1/actions"
+	"github.com/gouthams/go-concurrency-util/actions"
 )
 
 func main() {

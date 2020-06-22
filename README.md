@@ -31,6 +31,8 @@ This library is developed with go version 1.14.4
 
 Download the library from https://github.com/gouthams/go-concurrency-util
 
+Need access from github to resolve dependencies.
+
 To run a sample example, do the following
 ```shell script
 cd example
@@ -38,11 +40,19 @@ go build
 ./example
 ```
 
+To execute unit tests, do the following
+```shell script
+cd actions
+go test
+```
+
 To execute the unit test with the coverage profile, do the following
 ```shell script
 cd actions
+go test -coverprofile cp.out
 go tool cover -html=cp.out
 ```
+
 To execute the unit test with mutex profiler via interactive shell, do the following
 ```shell script
 cd actions
@@ -53,11 +63,6 @@ quit
 ```
 
 ### Unit test
-To execute unit tests, do the following
-```shell script
-cd actions
-go test
-```
 For assertion in unit test, this library is used https://github.com/stretchr/testify. 
 This go module dependency should be resolved during the build time.  
 
